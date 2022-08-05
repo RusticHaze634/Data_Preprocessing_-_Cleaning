@@ -31,8 +31,14 @@ Sample Data Preprocessing, Cleaning and Feature Engineering
    Plot the Distribution of Target
  ![attachment:distplot.png](https://github.com/RusticHaze634/Data_Preprocessing_-_Cleaning/blob/main/Images/distplot.png)
  
- - Generation of correlation among data columns (Heatmap)
+ - **Generation of Correlation among data columns (Heatmap)**
  ![attachment:corelation.png](https://github.com/RusticHaze634/Data_Preprocessing_-_Cleaning/blob/main/Images/corelation.png)
+ 
+ - **Modified Correlation Heatmap for Highly Correlated Features with SalePrice**
+ ![attachment:correlationsalprice.png](https://github.com/RusticHaze634/Data_Preprocessing_-_Cleaning/blob/main/Images/correlationsalprice.png)
+ 
+ - Plot regplot to get the nature of highly correlated data
+ ![attachment:regplot.png](https://github.com/RusticHaze634/Data_Preprocessing_-_Cleaning/blob/main/Images/regplot.png)
  
  - 
    
