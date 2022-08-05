@@ -64,12 +64,42 @@ Sample Data Preprocessing, Cleaning and Feature Engineering
  - Catinate the category codes columnwise
  - Keep unique value columns (Columns with few varieties of value)
 
-## Show skewness of feature 
+### Show skewness of features 
 - Use Distplot
 ![attachment:distplot2.png](https://github.com/RusticHaze634/Data_Preprocessing_-_Cleaning/blob/main/Images/distplot2.png)
 
 - Decrease the skewnwnes of the data
+
+## Dummy Variables
+- Get object feature to convert in numeric using dummy variable
+- Select and drop the dummy variables
+
+## Scale Dataset
+- Check Shape of modified data
+- Scale dataset with robust scaler
+
+
+## Machine Learning Model Building
+- Check length of Training dataset
+- Apply **k-fold Cross Validation** to get the correct patterns from the data
+
+## Models applied 
+- Linear Regression
+- Support Vector Machine
+- Decision Tree Regressor
+- Random Forest Regressor
+- Bagging & boosting
+- XGBoost
+
+## Hyperparameter Tuning 
+- RandomizedSearchCV, GridSearchCV for SVM model
+- XGBRegressor for XGBoost
+
+
+## Feature Engineering / Selection to improve accuracy
+- **Correlation Barplot for feature Engineering**
+![attachment:corelationfeature.png](https://github.com/RusticHaze634/Data_Preprocessing_-_Cleaning/blob/main/Images/corelationfeature.png)
+
 - 
- 
  
    
