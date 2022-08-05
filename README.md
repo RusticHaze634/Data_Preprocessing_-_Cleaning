@@ -113,7 +113,7 @@ Sample Data Preprocessing, Cleaning and Feature Engineering
  **Run models again after Feature Engineering and Hyperparameter Tuning**
  
  ## Saving the Model
- - Us **'Pickle'** to save the model
+ - Use **'Pickle'** to save the model
  - Use the data 'model_house_price_prediction.csv'
 
 ## Result
