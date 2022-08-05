@@ -20,7 +20,7 @@ Sample Data Preprocessing, Cleaning and Feature Engineering
 
 ## Exploratory Data Analysis (EDA) 
 - Check the all data columns and their details
-- Set ID coumn as Index
+- Set ID column as Index
 - **Show the null values using heatmap**
 ![attachment:heatmap.png](https://github.com/RusticHaze634/Data_Preprocessing_-_Cleaning/blob/main/Images/heatmap.png)
 
@@ -40,14 +40,27 @@ Sample Data Preprocessing, Cleaning and Feature Engineering
  - Plot regplot to get the nature of highly correlated data
  ![attachment:regplot.png](https://github.com/RusticHaze634/Data_Preprocessing_-_Cleaning/blob/main/Images/regplot.png)
  
- ## Handling Missing Value of Dataset and BSMT Feature
+ ## Handling Missing Value of Dataset and BSMT, Garage Feature
  
  - Check for null values
- - Check for BSMT features and its missing values
+ - Check for BSMT and Garage features and its missing values
  - Check for null values
  - Fill in with NAN values
  - Check shape of data
  - Create a bucket using range
  - Replace NAN value of BsmtFinType2 by mode 
+ - **Handling missing value of remain feature**
+ - Check for Unique and Nulll values of other features
+ - Use Fillna to replace null values
+ - Handling missing value of LotFrontage feature
+ 
+ ## Feature Transformation
+ - Convert columns in str which have categorical nature but in int64
+ - Convert a time related feature in month abbrevation
+ - Creating a list for modified columns
+ 
+ ## Convert categorical codes into order
+ - 
+ 
  - 
    
