@@ -21,4 +21,4 @@ Sample Data Preprocessing, Cleaning and Feature Engineering
 ## Exploratory Data Analysis (EDA) 
 - Check the all data columns and their details
 - Set ID coumn as Index
-- Show the null values using heatmap
+- **Show the null values using heatmap**
