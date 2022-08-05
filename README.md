@@ -9,3 +9,16 @@ Sample Data Preprocessing, Cleaning and Feature Engineering
 ### Libraries Used 
 - NUMPY, pandas, Matplotlib.pyplot, Seaborn
 
+## Dataset
+- train.csv - the training set
+- test.csv - the test set
+
+**SOLUTION:**
+
+## Data Concatination
+- Training and testing dataset merging
+
+## Exploratory Data Analysis (EDA) 
+- Check the all data columns and their details
+- Set ID coumn as Index
+- Show the null values using heatmap
