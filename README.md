@@ -27,7 +27,7 @@ Sample Data Preprocessing, Cleaning and Feature Engineering
 - Get the percentages of null value
 - **Drop Columns** - If the null value % 20 or > 20, Ir has to be dropped
 - Find the unique value count and unique value for each column
-- **Describe the target**
+- **Describe the target**  
    Plot the Distribution of Target
  ![attachment:distplot.png](https://github.com/RusticHaze634/Data_Preprocessing_-_Cleaning/blob/main/Images/distplot.png)
  
@@ -40,5 +40,14 @@ Sample Data Preprocessing, Cleaning and Feature Engineering
  - Plot regplot to get the nature of highly correlated data
  ![attachment:regplot.png](https://github.com/RusticHaze634/Data_Preprocessing_-_Cleaning/blob/main/Images/regplot.png)
  
+ ## Handling Missing Value of Dataset and BSMT Feature
+ 
+ - Check for null values
+ - Check for BSMT features and its missing values
+ - Check for null values
+ - Fill in with NAN values
+ - Check shape of data
+ - Create a bucket using range
+ - Replace NAN value of BsmtFinType2 by mode 
  - 
    
