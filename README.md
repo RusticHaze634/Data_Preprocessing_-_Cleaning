@@ -43,16 +43,16 @@ Sample Data Preprocessing, Cleaning and Feature Engineering
  ## Handling Missing Value of Dataset and BSMT, Garage Feature
  
  - Check for null values
- - Check for BSMT and Garage features and its missing values
+ - Check for **BSMT and Garage** features and its missing values
  - Check for null values
  - Fill in with NAN values
  - Check shape of data
  - Create a bucket using range
  - Replace NAN value of BsmtFinType2 by mode 
- - **Handling missing value of remain feature**
+ - **Handling missing value of remaining features**
  - Check for Unique and Nulll values of other features
  - Use Fillna to replace null values
- - Handling missing value of LotFrontage feature
+ - Handling missing value of **LotFrontage** feature
  
  ## Feature Transformation
  - Convert columns in str which have categorical nature but in int64
@@ -60,7 +60,16 @@ Sample Data Preprocessing, Cleaning and Feature Engineering
  - Creating a list for modified columns
  
  ## Convert categorical codes into order
- - 
+ - Define Data Categories
+ - Catinate the category codes columnwise
+ - Keep unique value columns (Columns with few varieties of value)
+
+## Show skewness of feature 
+- Use Distplot
+![attachment:distplot2.png](https://github.com/RusticHaze634/Data_Preprocessing_-_Cleaning/blob/main/Images/distplot2.png)
+
+- Decrease the skewnwnes of the data
+- 
  
- - 
+ 
    
