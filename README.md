@@ -117,6 +117,6 @@ Sample Data Preprocessing, Cleaning and Feature Engineering
  - Use the data 'model_house_price_prediction.csv'
 
 ## Result
-- Support Vector Machine with Accuracy = 90%
+- **Support Vector Machine with Accuracy** = **90%**
  
    
