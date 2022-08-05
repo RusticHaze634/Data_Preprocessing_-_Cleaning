@@ -101,13 +101,22 @@ Sample Data Preprocessing, Cleaning and Feature Engineering
 
 ![attachment:corelationfeature.png](https://github.com/RusticHaze634/Data_Preprocessing_-_Cleaning/blob/main/Images/corelationfeature.png)
 
-- Drop features those are not required  
-'YrSold',
+- **Drop features** those are not required  
+**'YrSold',
  'LowQualFinSF',
  'MiscVal',
  'BsmtHalfBath',
  'BsmtFinSF2',
  '3SsnPorch',
- 'MoSold'
+ 'MoSold'**
+ 
+ **Run models again after Feature Engineering and Hyperparameter Tuning**
+ 
+ ## Saving the Model
+ - Us **'Pickle'** to save the model
+ - Use the data 'model_house_price_prediction.csv'
+
+## Result
+- Support Vector Machine with Accuracy = 90%
  
    
