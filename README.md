@@ -22,3 +22,4 @@ Sample Data Preprocessing, Cleaning and Feature Engineering
 - Check the all data columns and their details
 - Set ID coumn as Index
 - **Show the null values using heatmap**
+[!attachment:heatmap.png](https://github.com/RusticHaze634/Data_Preprocessing_-_Cleaning/blob/main/Images/heatmap.png)
